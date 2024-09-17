@@ -4,6 +4,7 @@ from transformers import AutoTokenizer, AutoModelForTokenClassification, pipelin
 
 #Installation Command:
     ##Install the libraries(SpaCy – ‘en_core_sci_sm’).
+        ###pip install spacy==2.3.5
         ###python -m spacy download en_core_sci_sm
     ##Transformer Install Command
         ###pip install transformers

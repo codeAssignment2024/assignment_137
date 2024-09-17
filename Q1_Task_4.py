@@ -7,9 +7,9 @@ import warnings
 # Suppress specific warnings related to truncation
 warnings.filterwarnings("ignore")
 
-output_txt_file = 'merged_texts.txt'
+output_txt_file = 'Q1_extracted_texts.txt'
 
-# Define maximum token length for BioBERT (510 tokens, plus 2 for [CLS] and [SEP])
+# Define maximum token length for BioBERT (500 tokens, plus 2 for [CLS] and [SEP])
 MAX_TOKEN_LENGTH = 500
 
 # Try to load the SpaCy models with error handling
